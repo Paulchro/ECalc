@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ECalc.exe" version="1.0.0.2" publicKeyToken="32b2aad90fc59c2a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ECalc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ECalc.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ECalc.exe" size="113080">
+      <assemblyIdentity name="ECalc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fkjCRyOWW/MBryMQ4KOPK5Fwnvhec1fwoJc3Z+nY1y4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ECalc.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PAVLOSPC\paulc" issuerKeyHash="2fa194fcfe3c4a603ac17c8d213ebca26b12184b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3iKmw+TZS6mT7BAYgHOWwmimpyqU/nMG8scR5CE0KiU=</DigestValue></Reference></SignedInfo><SignatureValue>jW+yAgITpCSFZybPV7+UghRJvjx42pvmb9Y1zvHBxL7+znI/Ln9S6NMMLoW+wOXCj1YxXMg6i8BZB+wfsE+sKV07GvTCjSya/2g3g0V0/0kHSoxt8qy21uln1zZKuKwWlBMghuQ9D07F6WH8kqgB26QuRJ21gYM4AUs6O5X92S4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xa0c3//rUcjepKUbUsxi2ElOLIjzBI9tMx05qYvy1h8ObBORfNnNkczYoBiqhi8Jzi2vQEwehBlX89SuO2o4z8dxWJsaVZx3i/gDIhUWD4AHzp4ftAl8UR8W+JToctsReBJJw8DRDmvYrIdoyDao8mnWklczHdL5vHH3sgp5qIE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="252a3421e411c7f20673fe942aa7a668c29673801810ec93a94bd9e4c3a622de" Description="" Url=""><as:assemblyIdentity name="ECalc.exe" version="1.0.0.2" publicKeyToken="32b2aad90fc59c2a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PAVLOSPC\paulc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lgPukMzJc1jEaYSvIo5mrP5PFq88JYtrTM9wQw6D7hY=</DigestValue></Reference></SignedInfo><SignatureValue>Xo/ODZ374tn1wUGHh2+/oSY5l+xVADSEV3/E5tZpkw5eCpEeRyPO7KO5c1VZ+Q7FvUFTTwyu8W8JqqHrMd9t4mg5lS4fpxzaXGcGdQG3S8sUW7cj7HGm1yoe8HgfDdvU17P5HIrQmq9+7PB9Y5faso0ATM+jWo5xXp8o6jn/0nI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xa0c3//rUcjepKUbUsxi2ElOLIjzBI9tMx05qYvy1h8ObBORfNnNkczYoBiqhi8Jzi2vQEwehBlX89SuO2o4z8dxWJsaVZx3i/gDIhUWD4AHzp4ftAl8UR8W+JToctsReBJJw8DRDmvYrIdoyDao8mnWklczHdL5vHH3sgp5qIE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQb2xINPoC6ZVM2VZdXoXmATANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAUABBAFYATABPAFMAUABDAFwAcABhAHUAbABjMB4XDTIyMTEwODEzMjE0OVoXDTIzMTEwODE5MjE0OVowJzElMCMGA1UEAx4cAFAAQQBWAEwATwBTAFAAQwBcAHAAYQB1AGwAYzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxa0c3//rUcjepKUbUsxi2ElOLIjzBI9tMx05qYvy1h8ObBORfNnNkczYoBiqhi8Jzi2vQEwehBlX89SuO2o4z8dxWJsaVZx3i/gDIhUWD4AHzp4ftAl8UR8W+JToctsReBJJw8DRDmvYrIdoyDao8mnWklczHdL5vHH3sgp5qIECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAjb8Ga0LwUTvf8/3vRBSS5q2Qsjg8t7wrMJKWs0KRnbiDKL0uxxKcvrGz6N+O5tylXJkvaVERWTmOwrDPfR7z+kgVyii6iSTI/rOdkuutDAntLJ5XnzGyQ4DzLfFpkNIx2BnTQJHhp+Hqevtha+jc/ydI+2nNcbfsqiqaDThH0aw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
